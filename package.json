@@ -1,0 +1,47 @@
+{
+  "name": "@mikazuki/language-colors",
+  "version": "1.0.0",
+  "description": "GitHub programming language colors for JavaScript.",
+  "main": "dist/index.min.js",
+  "module": "dist/index.esm.min.js",
+  "types": "dist/index.d.ts",
+  "jsdelivr": "dist/index.umd.min.js",
+  "unpkg": "dist/index.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/mika-f/language-colors.git",
+  "homepage": "https://github.com/mika-f/language-colors",
+  "author": {
+    "name": "Fuyuno Mikazuki",
+    "email": "mikazuki_fuyuno@outlook.com",
+    "url": "https://mochizuki.dev"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prebuild": "rm -r ./dist",
+    "build": "ts-node src/build.ts && bili",
+    "prepublishOnly": "yarn run build"
+  },
+  "devDependencies": {
+    "@types/got": "^9.6.7",
+    "@types/js-yaml": "^3.12.1",
+    "@types/node": "^12.7.9",
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "bili": "^4.8.1",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "got": "^9.6.0",
+    "js-yaml": "^3.13.1",
+    "prettier": "^1.18.2",
+    "prettier-plugin-package": "^0.3.1",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
