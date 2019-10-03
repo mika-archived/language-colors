@@ -1,12 +1,12 @@
 {
   "name": "@mikazuki/language-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub programming language colors for JavaScript.",
-  "main": "dist/index.min.js",
-  "module": "dist/index.esm.min.js",
-  "types": "dist/index.d.ts",
-  "jsdelivr": "dist/index.umd.min.js",
-  "unpkg": "dist/index.umd.min.js",
+  "main": "dist/colors.min.js",
+  "module": "dist/colors.esm.min.js",
+  "types": "dist/colors.d.ts",
+  "jsdelivr": "dist/colors.umd.min.js",
+  "unpkg": "dist/colors.umd.min.js",
   "files": [
     "dist"
   ],
